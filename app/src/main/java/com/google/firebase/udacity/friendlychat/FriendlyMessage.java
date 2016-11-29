@@ -21,6 +21,8 @@ public class FriendlyMessage {
     private String name;
     private String photoUrl;
 
+
+
     public FriendlyMessage() {
     }
 
@@ -28,6 +30,7 @@ public class FriendlyMessage {
         this.text = text;
         this.name = name;
         this.photoUrl = photoUrl;
+
     }
 
     public String getText() {
@@ -53,4 +56,7 @@ public class FriendlyMessage {
     public void setPhotoUrl(String photoUrl) {
         this.photoUrl = photoUrl;
     }
+
+
+
 }

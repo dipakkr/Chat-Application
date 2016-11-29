@@ -41,8 +41,17 @@ dependencies {
     // Displaying images
     compile 'com.github.bumptech.glide:glide:3.6.1'
 
+    //FireBase Database
     compile 'com.google.firebase:firebase-database:9.8.0'
 
+    //FireBase Authentication
+    compile 'com.google.firebase:firebase-auth:9.8.0'
+
+    // FirebaseUI Auth only
+    compile 'com.firebaseui:firebase-ui-auth:0.6.2'
+
+    //FireBase Storage
+    compile 'com.google.firebase:firebase-storage:9.8.0'
 }
 
  apply plugin: 'com.google.gms.google-services'

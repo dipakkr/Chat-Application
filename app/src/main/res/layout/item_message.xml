@@ -1,32 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_marginLeft="@dimen/activity_horizontal_margin"
-              android:layout_marginStart="@dimen/activity_horizontal_margin"
-              android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:padding="4dp"
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/photoImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true" />
+        <ImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
 
-    <TextView
-        android:id="@+id/messageTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        tools:text="Message" />
 
-    <TextView
-        android:id="@+id/nameTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        tools:text="Name" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_gravity=""
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textColor="#9f000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:text="Name" />
+
+
+
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="wrap_content"
+            android:text="Message "
+            android:textSize="15dp"
+            android:layout_marginRight="@dimen/item_right_margin"
+            android:gravity="center_horizontal"
+            android:background="@drawable/chat_item_background"
+            android:textColor="#fff"
+            android:padding="7dp"
+            android:textAlignment="textStart"
+            android:clickable="true"
+            android:autoLink="web"
+            android:textIsSelectable="true"
+            android:textEditPasteWindowLayout="@color/authui_colorActivated"
+            android:layout_height="wrap_content"/>
+
 
 </LinearLayout>
