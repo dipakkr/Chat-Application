@@ -52,6 +52,8 @@ dependencies {
 
     //FireBase Storage
     compile 'com.google.firebase:firebase-storage:9.8.0'
+
+    compile 'com.google.firebase:firebase-messaging:9.8.0'
 }
 
  apply plugin: 'com.google.gms.google-services'

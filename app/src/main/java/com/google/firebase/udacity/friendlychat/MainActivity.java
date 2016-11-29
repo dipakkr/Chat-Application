@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                 //Second for the Username
                 //Third for Photo url, Currently NULL we are not implementing photo sending Feature
 
-                FriendlyMessage friendlyMessage = new FriendlyMessage(mMessageEditText.getText().toString(), mUsername, null);
+                FriendlyMessage friendlyMessage = new FriendlyMessage(mMessageEditText.getText().toString(), mUsername,null);
                 mMessagesDatabaseReference.push().setValue(friendlyMessage);
                 // Clear input box
                 mMessageEditText.setText("");
