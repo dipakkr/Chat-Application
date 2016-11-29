@@ -5,4 +5,8 @@
         android:id="@+id/sign_out_menu"
         android:title="@string/sign_out"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/invite_menu"
+        android:title="@string/invite"
+        app:showAsAction="never"/>
 </menu>

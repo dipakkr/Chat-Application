@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Chat Messenger</string>
     <string name="sign_out">Sign Out</string>
+    <string name="invite">Invite Friends</string>
     <string name="send_button_label">Send</string>
     <string name="edittext_hint">Type a message</string>
+    <string name="invitation_title">Greeting From DroidChat</string>
+
+    <string name="invitation_message"> Hey there,Here is my new android application.Please Install
+        and give your valuable feedback.</string>
+    <string name="invitation_cta">Thanks Team DroidChat</string>
+
 </resources>
