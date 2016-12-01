@@ -271,10 +271,8 @@ public class MainActivity extends AppCompatActivity {
                         mMessagesDatabaseReference.push().setValue(message);
                     }
                 });
-            }
+           }
         }
-
-
     private void OnSignOutCleanUp() {
         //Unset the Username
         mUsername = ANONYMOUS;
